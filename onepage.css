@@ -47,7 +47,7 @@ h1{
 
 a{
 text-decoration: none;
-color:white;     
+color:black;     
 }
 
 ul a:hover{
@@ -80,7 +80,7 @@ ul a:hover{
 
 .grid2{
     display: grid;
-    grid-template-columns: repeat(3, 33%)
+    grid-template-columns: repeat(3, 33%);
 
 }
 
@@ -92,4 +92,18 @@ ul a:hover{
 
 footer{
     background-color: #F6E497;
+}
+em{
+    color: black;
+    background-color: #F6E497;
+}
+.assoc{
+    display: flex;
+    color: black;
+    background-color: #F6E497;
+}
+.croix{
+    margin: 0 33% 0 33%;
+    width: 20%;
+    height: auto;
 }
